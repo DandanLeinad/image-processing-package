@@ -1,27 +1,37 @@
-# package_name
+# dandanleinad-image-processing
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+## Descrição
+O pacote `dandanleinad-image-processing` é um pacote de exemplo, baseado no `scikit-image`, desenvolvido como parte do Bootcamp da DIO, "Descomplicando a criação de pacotes de processamento de imagens em Python", ministrado por Karina Kato. Este pacote é utilizado para realizar diversas tarefas de processamento de imagens, incluindo as seguintes funcionalidades:
 
-## Installation
+### Processamento:
+- Correspondência de Histograma
+- Similaridade Estrutural
+- Redimensionar Imagem
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+### Utilitários:
+- Ler Imagem
+- Salvar Imagem
+- Plotar Imagem
+- Plotar Resultado
+- Plotar Histograma
+
+## Instalação
+
+Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar o `dandanleinad-image-processing`.
 
 ```bash
-pip install package_name
+pip install dandanleinad-image-processing
 ```
 
-## Usage
+## Uso
 
 ```python
-from package_name.module1_name import file1_name
-file1_name.my_function()
+from dandanleinad-image-processing.processing import combination, transformation
+from dandanleinad-image-processing.utils import io, plot
 ```
 
-## Author
-My_name
+## Autor
+[tiemi](https://github.com/tiemi)
 
-## License
+## Licença
 [MIT](https://choosealicense.com/licenses/mit/)
